@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20170720" releaseVersion="9.0.0">
+<TableDataMap>
+<TableData name="deng" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[JDBC3]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM public."deng"]]></Query>
+</TableData>
+<TableData name="dianliu" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[JDBC3]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM public."dianliu"]]></Query>
+</TableData>
+<TableData name="dianya" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[JDBC3]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM public."dianya"]]></Query>
+</TableData>
+<TableData name="hjxx" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[JDBC3]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT * FROM public."hjxx"]]></Query>
+</TableData>
+</TableDataMap>
+<Report class="com.fr.report.poly.PolyWorkSheet" name="sheet1">
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<Block class="com.fr.report.poly.PolyECBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[5448300,342900,0,0,0,38100,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[17526000,190500,0,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="0">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=now()]]></Attributes>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<PECBAttr blockName="block1" x="1143000" y="876300" width="17716500" height="5829300"/>
+</Block>
+<Block class="com.fr.report.poly.PolyECBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1828800,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[17221200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="1">
+<O>
+<![CDATA[环境信息]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<PECBAttr blockName="block2" x="1143000" y="6781800" width="17221200" height="1828800"/>
+</Block>
+<Block class="com.fr.report.poly.PolyECBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[1752600,571500,1676400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[4229100,4381500,419100,4686300,4343400,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" s="2">
+<O>
+<![CDATA[风速]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0" s="3">
+<O t="DSColumn">
+<Attributes dsName="hjxx" columnName="fs"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0" s="4">
+<O>
+<![CDATA[一氧化碳]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="0" s="2">
+<O t="DSColumn">
+<Attributes dsName="hjxx" columnName="yyht"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="2" s="2">
+<O>
+<![CDATA[温度]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="2" s="3">
+<O t="DSColumn">
+<Attributes dsName="hjxx" columnName="wd"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="2" s="5">
+<O>
+<![CDATA[一氧化氮]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="4" r="2" s="2">
+<O t="DSColumn">
+<Attributes dsName="hjxx" columnName="yyhd"/>
+<Condition class="com.fr.data.condition.ListCondition"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Result>
+<![CDATA[$$$]]></Result>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<PECBAttr blockName="block3" x="1143000" y="9829800" width="18059400" height="4000500"/>
+</Block>
+<Block class="com.fr.report.poly.PolyECBlock">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[2362200,2362200,3238500,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,6362700,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0" cs="5" rs="3" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+</CellElementList>
+<PECBAttr blockName="block4" x="1524000" y="14439900" width="17335500" height="7962900"/>
+</Block>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0" useParamsTemplate="true"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="128"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2">
+<FRImage fm="png">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320@UNS+#\5l6YQ7<WL>mIe$nMWH>oZ3]Ak.JBM4"E-nU@k4D?rqlX<,
+^aV$mCt?7>9j2HT)'ZiG`(s-+Z!+<;<Pt`TH+3M)!k&h/2>rSj0a<n(OC`Q`'$Hqn2fSh9QV
+O$mDOoYO1/KrOZpHFFMumm+7#B?N$<p=IL26k>t[e6\D)anOo?EFDJR^X.B3keRWRSp@S%Sm
+uOoH(HfD-m,i#1oCF\:)_6Cihf%r/GX,_Po#o*[e+P@FIX-.PP/Wk;rN!7843=%?E:eGJBCU
+8XF(6\DR;W$LcHtVMCMMbToTrFiVO^pprplXP;l!gj#u:cc/UpZI+5(r;p2P)_h"1.:$8WZ#
+r<md7Y0`jqH?X#6)8,^tXQ@L0@uL/9LV`oMI:r$*\#ao*+3Pc]Aoo$8[p\AP#3"i9h^[kI^Z"
+r6Gf!NqoIj,,HZ<JDHHiNfpR6,V0Mgg%,B/%\Y)/_<KhU:bWd8o-4V=2(2pRL:"g:!P15,t*
+SQHbOSUWEF`O7f-_q<o1768#AndBWAYIVF.chHo[>b66.e08UAom[OlSf';9tI%^$'HiDb!Y
+M!=o\?tpemTf5TQhKPlbugT@1il.^b*D3tZ^SYRq^KU*9]A[oi4C&(.rn@dc/==Gn']A@6Q\3d
+T[iJN^A6WU)d_cEF8PS/b(m\ocNOoAG+&j@u;XKKgMH#n2u0.qPDmbPhDnp@Zc"i('iP[Ruk
+Sl>qjrV'S)5T/cYdcW9cl-\eZD=?0.]Am=p@j3?lF`[fO64?OJpHr-#lSU3Y>`1B1^T?i%nb%
+^lmr_',:k5XR+UZn0HK>_<MPa0@rIP(Tkom:T0bSE(+)Y6V_ckL!WP^?&k%a8#fs"^<`g:F-
+V04Vf.T]A5Lp%9'DJPg3tt3-s`;N/'-&&4JNAM)5.a_><RM-r59$G&0Onhld4`?JX=C^mQ$_N
+9@1%@Jj[@W,ZF>$!,OD/Zk%Wq=++-g"o-?qBZe!76_UPnJcO',Yp_Oa5MVobh&Z#T%SMu=GR
+eLs6L>+32Q^tqJ;@C.7]A,O0Dp%>h.:K`EL[._dhk2QrERo6,r>W&~
+]]></IM>
+</FRImage>
+</Background>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="6">
+<FRFont name="SimSun" style="0" size="128"/>
+<Background class="com.fr.plugin.external.ExternalImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1" id="0b59fee7-5aa5-4ccf-937f-bfc8978cd64e"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1" spacingBefore="5" spacingAfter="5" lineSpacing="5">
+<FRFont name="SimSun" style="0" size="144"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<FRImage fm="png">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(/#=HA(D8-W<X:Bse,4^B$p.d"CW]AJ5V<;2"&jCJS;qJ<R/H^2
+nF$g!e0HIYt%KR^c'[S]AOJ#^>#9Jr_0b/Qo=-tj*uP/C[]AKNs*O3u6\YC.MN7f.PmVk'E_dN
+2W:2aE<\im/A5;WYA+9K9&2B%?^a-Ka)*D>'m[qX)4AhpkkY27W=$N$o:'jVp~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1" paddingRight="10" spacingBefore="5" spacingAfter="5" lineSpacing="5">
+<FRFont name="SimSun" style="0" size="144"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<FRImage fm="png">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(/#=HA(D8-W<X:Bse,4^B$p.d"CW]AJ5V<;2"&jCJS;qJ<R/H^2
+nF$g!e0HIYt%KR^c'[S]AOJ#^>#9Jr_0b/Qo=-tj*uP/C[]AKNs*O3u6\YC.MN7f.PmVk'E_dN
+2W:2aE<\im/A5;WYA+9K9&2B%?^a-Ka)*D>'m[qX)4AhpkkY27W=$N$o:'jVp~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="10" spacingBefore="5" spacingAfter="5" lineSpacing="5">
+<FRFont name="SimSun" style="0" size="144"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<FRImage fm="png">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(/#=HA(D8-W<X:Bse,4^B$p.d"CW]AJ5V<;2"&jCJS;qJ<R/H^2
+nF$g!e0HIYt%KR^c'[S]AOJ#^>#9Jr_0b/Qo=-tj*uP/C[]AKNs*O3u6\YC.MN7f.PmVk'E_dN
+2W:2aE<\im/A5;WYA+9K9&2B%?^a-Ka)*D>'m[qX)4AhpkkY27W=$N$o:'jVp~
+]]></IM>
+</FRImage>
+</Background>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1" paddingLeft="10" spacingBefore="5" spacingAfter="5" lineSpacing="5">
+<FRFont name="SimSun" style="0" size="144"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<FRImage fm="png">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320!n(/#=HA(D8-W<X:Bse,4^B$p.d"CW]AJ5V<;2"&jCJS;qJ<R/H^2
+nF$g!e0HIYt%KR^c'[S]AOJ#^>#9Jr_0b/Qo=-tj*uP/C[]AKNs*O3u6\YC.MN7f.PmVk'E_dN
+2W:2aE<\im/A5;WYA+9K9&2B%?^a-Ka)*D>'m[qX)4AhpkkY27W=$N$o:'jVp~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="1">
+<FRImage fm="png">
+<IM>
+<![CDATA[lO<9(kN.ld@UNU%p%320@UNS+$tQ!i?iuQNs(O,q?sqIQFE%_gR.L$sh5l]A[M7/0LRT#`bXp
+jX0l7tA-M2'Mp><@;+Xsm,75uYJrB8H7F'8cO1\O>lUPQML1k2Gp;+#i;_H%1$Vjn8"1gt_#
+hI*]A6K\9gr>6)(b4qq\M\#G1Yu#>Wc:n>M8bg7,1S?Y-e1hAmKIr#@n;l1=:@V9cWI1.WrKd
+BWAYIVF.#hQ8ruO+$eHD8Wilh4?1_m-F%Wn#L^1nltEps)%X_4e)KF1P:85bD<04l^$\JN2c
+YkD^]A\oo7>c]ALPtq*%nted5&K2lm,rSAc*pH_rf<bHcu]A5`NF-d:^$f=^q*jc?m*<PRj!)H?
+LLfCnf7#rjoR>KmR(>H2^E0Li0[P.aDDc:fdd5-abK=2KoATMHB<(pKUh05[B$$cs([nK]Abl
+;OP`TP]An$p@q3VY2T9?gZ]A,j5/4!A&CAeD!l7Zp0+qlqr+BhH\7["J$6'MDpSHU-g/N)+'>c
+n*p2*:\).s+g3Zc80C2f"dBZo;R_b>8:2KF'YGqIW=oKHEZI5,?l0ln=0pk0iXn5;%nuJ0[N
+Ejd^k^UA!o&I^XljO)%:oD$d[[I\JJpXdkq(fiDf?JN*SCr>XMFm*d""0)k1EMp7AG8KKBC_
+\6NsIQfB>9Y_p\V.^+j5KW1Y(74fonB*(ojtu>S2-kGh&e7n.hn!.Z)'ZerXIZ4:.kbIicTE
+lD)e&dXsp@]AUVL*^-e%Apa$lsQlXmt$o5rq6AM%C*%Uf2IdZ@IrT4%MCH$W*qWRkGq=VKD^R
+d!+^UdO(R5)P@dX#"%o?N!O^=e;?&pZD+@I*8trd4<aJ(_Bb?b,&iJ+!@!2g=0YrA/&^"e=R
+]A8=iei2#1_DY%dd!(;GgaAM/E+CuWoJQeuh=s19'b"Y;od?L@[]A_4X.OWspA]A6#uFLB?pp6r
+n@:Y4&S!3m+$,H+4&2/cXO:"H9B$_a31Dge'9NKQSeMbA\p>E/XlqqGnre_)QQR#@k^^]AB(9
+_L.P:JN%sbn([!/B8h0.7)otQ]A6e3*`@_1jltm%hk9eDu&T(`Nn"79kl&Tb>&PhV[c.*tEe6
+I='^LRgDZ#X_/Eh(o8r@oE6?S([l\m/kiWXSU>?i*j>pYS8mDX0qehY8nNNI9<r6?AhYq8Cm
+t*YrOq!X^TtZa'$[Pj5F]AEGO'/CMP9IT9+'<Y>Ge3a^XE.!I!WW~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+</StyleList>
+<DesignerVersion DesignerVersion="JAA"/>
+<PreviewType PreviewType="0"/>
+<TemplateID TemplateID="f2104c9c-d42b-42d7-9b08-0637e71319e3"/>
+<TemplateIdAttMark class="com.fr.base.iofileattr.TemplateIdAttrMark">
+<TemplateIdAttMark TemplateId="a0244faf-eaaa-4312-bb7e-bdc6398ab22a"/>
+</TemplateIdAttMark>
+</WorkBook>
